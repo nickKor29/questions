@@ -1,0 +1,49 @@
+.accordioHeading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 24px;
+}
+
+.accordionHeader {
+  font-size: 20px;
+  color: #191919;
+}
+.accordionIcon {
+  width: 20px;
+  height: 20px;
+  stroke: #6a0bff;
+  transition: transform 0.3s;
+  flex-shrink: 0;
+}
+.accordionActive .accordionIcon {
+  transform: rotate(180deg);
+}
+.accordionWrapperEnter {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+}
+
+.accordionWrapperEnterActive {
+  max-height: var(--content-height);
+  opacity: 1;
+  transition:
+    max-height 0.3s cubic-bezier(0, 1, 0, 1),
+    opacity 0.2s;
+}
+
+.accordionWrapperExit {
+  max-height: var(--content-height);
+  opacity: 1;
+}
+
+.accordionWrapperExitActive {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition:
+    max-height 0.3s cubic-bezier(0, 1, 0, 1),
+    opacity 0.2s;
+}

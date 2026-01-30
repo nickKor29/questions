@@ -1,0 +1,12 @@
+.layout {
+  display: grid;
+  grid-template-columns: 280px 1fr;
+  grid-template-rows: 72px auto 1fr;
+  column-gap: 20px;
+  height: 100dvh;
+  overflow: hidden;
+  background-color: #d1d1d1;
+}
+.main {
+  overflow-y: scroll;
+}

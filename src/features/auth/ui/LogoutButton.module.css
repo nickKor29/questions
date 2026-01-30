@@ -1,0 +1,6 @@
+.button {
+  gap: 8px;
+}
+.button:hover svg {
+  fill: #fff;
+}

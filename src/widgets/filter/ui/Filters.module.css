@@ -1,0 +1,18 @@
+.container {
+  padding: 24px;
+  background-color: #fff;
+  min-width: 328px;
+  max-width: 392px;
+}
+.specializationsBlock {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.specialization {
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-weight: 500;
+  white-space: nowrap;
+}

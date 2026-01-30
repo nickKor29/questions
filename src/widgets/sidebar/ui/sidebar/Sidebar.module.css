@@ -1,0 +1,6 @@
+.aside {
+  background-color: #fff;
+  grid-row: 1/-1;
+  text-wrap: nowrap;
+  overflow: hidden;
+}
